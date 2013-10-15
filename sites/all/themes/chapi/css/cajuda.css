@@ -1,0 +1,88 @@
+article.node-business .field-label-above .field-label {
+width: 140px;
+}
+
+article.node-business .field-name-field-location-map {
+width: 100%;
+}
+
+article.node-business .field-name-field-location-map {
+float: none;
+margin-left: 0;
+}
+
+article.node-business .field-name-field-location-map {
+width: 320px !important;
+}
+
+.field-name-field-location-map div {
+vertical-align: top;
+}
+
+article.node-business .field-name-field-images .field-slideshow-slide img {
+float: right;
+}
+
+article.node-business .field-name-field-images {
+width: 595px !important;
+}
+
+
+
+article.node-business .field.field-name-field-images.field-type-image {
+position: relative;
+top: -30px;
+}
+
+
+.view-similar-business .views-row .views-field-field-images {
+float: left;
+width: 80px;
+margin-right: 0px;
+}
+
+
+/* START Removing some decorative elements */
+
+.view-similar-business .views-row {
+float: left;
+width: 100%;
+padding-bottom: 15px;
+margin-bottom: 15px;
+background: transparent;
+border-bottom: 1px dotted #CCC;
+}
+.view-similar-business .views-row:last-child {
+border-bottom: none;
+}
+.field-type-image img, .views-field-field-images img, .views-field-field-image img {
+border: none;
+background: transparent;;
+padding: 0;
+}
+.section-content section.block .block-inner .content, .section-content #block-system-main .block-inner .content {
+background: transparent;
+}
+
+/* END Removing some decorative elements */
+
+/* START Comments form */
+
+#comment-form {
+background: whitesmoke;
+padding: 10px 20px 1px;
+color: #555;
+}
+
+.zone-branding {
+background: transparent!important;
+}
+
+#zone-user-wrapper {
+background-color: #ccc;
+}
+
+#zone-branding-wrapper {
+background: rgb(255, 102, 0);
+
+}

@@ -1,0 +1,9 @@
+name = ST Chapi
+description = ST Chapi install fullsize package.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = dblog
+files[] = chapi.profile
+
+

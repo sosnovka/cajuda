@@ -1,0 +1,221 @@
+/* $Id: purple-style.css,v 1.0.0 2012/02/25 08:18:15 symphonythemes Exp $ */
+
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+a,
+a:link,
+a:visited {
+  color: #aa40ac;
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+  color: #f4aa0a;
+}
+
+pre,
+div.code {
+  border-left: 5px solid #aa40ac;
+}
+.highlight {
+  background: #aa40ac;
+  color: #fff;
+}
+
+
+li.comment-add a:hover,
+li.comment-add a.active:hover {
+  background: #aa40ac;
+  color: #fff;
+}
+
+
+.item-list .pager .pager-current,
+.item-list .pager li a:hover {
+  background: #aa40ac;
+  color: #fff;
+}
+
+
+input.form-submit:hover {
+  background: #aa40ac;
+  color:#fff;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+.zone-branding {
+  background: url(../images/purple/header-bg.jpg) 0 0 repeat-x;
+}
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+/* Mobile menu */
+ul#om-menu-mobile-menu li.om-leaf .om-link {
+  background: #6f1871;
+}
+ul#om-menu-mobile-menu li.om-leaf.open .om-link {
+  background: #6f1871;
+}
+ul#om-menu-mobile-menu li.om-leaf .link-menu {
+  background: #6f1871 url(../images/menu-expand-icon.png) 10px center no-repeat;
+}
+ul#om-menu-mobile-menu li.om-leaf.open .om-link.link-menu {
+  background: #6f1871 url(../images/menu-collapse-icon.png) 10px center no-repeat;
+}
+ul#om-menu-mobile-menu li.om-leaf .om-link.link-search {
+  background: #6f1871 url(../images/search-icon.png) center center no-repeat;
+}
+ul#om-menu-mobile-menu li.om-leaf.open .om-link.link-search {
+  background: #6f1871 url(../images/search-icon.png) center center no-repeat;
+}
+#block-om-maximenu-om-maximenu-1 .om-maximenu-content .om-maximenu-middle {
+  background: #6f1871;
+}
+
+/* Main menu */
+#region-menu {
+  background: url(../images/purple/border-branding-menu.jpg) 0 0 repeat-x;
+}
+.region-menu ul.nice-menu li.active-trail a,
+.region-menu ul.nice-menu li a.active,
+.region-menu ul.nice-menu li a:hover,
+.region-menu ul.nice-menu li.over a {
+  background: #6f1871;
+}
+.region-menu ul.nice-menu ul {
+  border: none;
+  background: #6f1871;
+}
+.region-menu ul.nice-menu li li,
+.region-menu ul.nice-menu li.over li {
+  border-bottom: 1px solid #aa40ac;
+}
+.region-menu ul.nice-menu ul li.active-trail a,
+.region-menu ul.nice-menu ul li a.active,
+.region-menu ul.nice-menu ul li a:hover,
+.region-menu ul.nice-menu ul li.over a,
+.region-menu ul.nice-menu li li.over a:hover,
+.region-menu ul.nice-menu li li.over a.active,
+.region-menu ul.nice-menu li.over li a:hover,
+.region-menu ul.nice-menu li.over li a.active,
+.region-menu ul.nice-menu li.active-trail li a:hover,
+.region-menu ul.nice-menu li.active-trail li a.active {
+  background: #aa40ac;
+}
+
+
+/* Top menu */
+.block-system-user-menu ul.menu li a:hover,
+.block-system-user-menu ul.menu li a.active {
+  color: #f4aa0a;
+}
+
+/* Footer menu */
+.zone-footer ul.menu li a {
+  color: #666;
+}
+.zone-footer ul.menu li a:hover,
+.zone-footer ul.menu li a.active {
+  color: #aa40ac;
+}
+
+
+/*------------------------------------*\
+	Comment CSS
+\*------------------------------------*/
+#comment-form input.form-submit {
+  background: #aa40ac;
+  color: #fff;
+}
+
+/*------------------------------------*\
+	BUSINESS CSS
+\*------------------------------------*/
+/* Block list business by category */
+.block-category-items .views-slideshow-pager-field-item a {
+  color: #333;
+}
+.block-category-items .views-slideshow-pager-field-item a:hover {
+  color: #aa40ac;
+}
+
+/* Block slideshow business */
+.block-business-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-previous:hover,
+.block-business-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous:hover,
+.view-slideshow-business .views-slideshow-controls-bottom .views-slideshow-controls-text-previous:hover,
+.view-slideshow-business .views-slideshow-controls-top .views-slideshow-controls-text-previous:hover {
+  background: url(../images/purple/slideshow-prev-hover.jpg);
+}
+.block-business-slideshow .views-slideshow-controls-bottom  .views-slideshow-controls-text-next:hover,
+.block-business-slideshow .views-slideshow-controls-top  .views-slideshow-controls-text-next:hover,
+.view-slideshow-business .views-slideshow-controls-bottom  .views-slideshow-controls-text-next:hover,
+.view-slideshow-business .views-slideshow-controls-top  .views-slideshow-controls-text-next:hover {
+  background: url(../images/purple/slideshow-next-hover.jpg);
+}
+
+/* Business detail */
+article.node ul.field-slideshow-pager li.activeSlide img {
+  border: 1px solid #aa40ac;
+}
+
+/*------------------------------------*\
+	EVENT CSS
+\*------------------------------------*/
+/* Block top events */
+.block-top-events .views-row .views-field-field-address .views-label,
+.block-top-events .views-row .views-field-field-time .views-label {
+  color: #aa40ac;
+}
+
+/* List events */
+.view-list-events .views-row .views-field-field-address .views-label,
+.view-list-events .views-row .views-field-field-event-contact .views-label,
+.view-list-events .views-row .views-field-field-time .views-label {
+  color: #aa40ac;
+}
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+
+h2.block-title {
+  color: #aa40ac;
+}
+
+.section-content .block .block-inner h2.block-title {
+  background: url(../images/purple/block-title-bg-arrow.png) bottom left no-repeat;
+}
+.section-content .block .block-inner h2.block-title span {
+  background: url(../images/purple/block-title-bg.jpg);
+}
+h1.title {
+  background: url(../images/purple/block-title-bg-arrow.png) bottom left no-repeat;
+}
+h1.title  span {
+  float: left;
+  background: url(../images/purple/block-title-bg.jpg);
+}
+
+.section-content section.block .block-inner h2.block-title {
+  background: url(../images/purple/block-title-bg-arrow.png) bottom left no-repeat;
+
+}
+.section-content section.block .block-inner h2.block-title span {
+  background: url(../images/purple/block-title-bg.jpg);
+}
+
+/* Block List Loactions */
+.block-list-locations .content ul li a {
+  color: #444;
+}
+.block-list-locations .content ul li a:hover {
+  color: #aa40ac;
+}
+
+
+

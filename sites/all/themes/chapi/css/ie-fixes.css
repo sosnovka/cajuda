@@ -1,0 +1,31 @@
+/* $Id: ie-fexes.css,v 1.0.0 2012/01/06 08:18:15 symphonythemes Exp $ */
+.zone-header,
+.zone-content,
+.zone-preface,
+.zone-footer,
+.block-system-user-menu ul.menu,
+li.comment-add a,
+li.comment-add a.active,
+.item-list .pager .pager-current,
+.item-list .pager li a,
+.item-list .pager .pager-current,
+.item-list .pager li a:hover,
+.more-link a,
+.block-system-user-menu
+{
+  behavior: url(/sites/all/themes/veena/PIE.htc)
+}
+
+input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  max-width: 85%;
+}
+
+
+
+
+
+
+
+
+
+

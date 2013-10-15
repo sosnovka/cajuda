@@ -1,0 +1,358 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+
+/* Mobile CSS */
+.block-search-business,
+.block-system-user-menu,
+.block-nice-menus-1 {
+  display: block;
+}
+/* Mobile menu */
+#block-om-maximenu-om-maximenu-1 {
+  display: none;
+}
+
+/* Page
+*************************************************/
+body {
+  font-size: 81.25%; /* 13px */
+  line-height: 1.846;
+}
+.branding-data {
+  float: left;
+  width: auto;
+  margin-left: 20px;
+}
+
+
+h1.title,
+h2.block-title {
+  font-size: 160%;
+  line-height: 1;
+}
+.section-content section.block.block-category-items .block-inner h2.block-title {
+  font-size: 150%;
+}
+
+.branding-data .logo-img img {
+  width: auto;
+}
+
+.region-sidebar-second {
+  margin-top: 10px;
+}
+
+#breadcrumb {
+  margin: 5px 0 20px 0;
+}
+
+/* Navigations
+*************************************************/
+/* Main menu */
+.region-menu ul.nice-menu {
+  text-align: left;
+}
+.region-menu nav.navigation {
+  float: left;
+  width: 100%;
+}
+ul#main-menu li,
+.zone-menu ul.nice-menu li {
+  float: left;
+}
+ul#main-menu li a,
+.region-menu ul.nice-menu li a {
+  padding: 13px 40px;
+  text-transform: uppercase;
+}
+
+.region-menu ul.nice-menu li li a,
+.region-menu ul.nice-menu li.over li a,
+.region-menu ul.nice-menu li.active-trail li a {
+  padding: 8px 15px;
+}
+
+/* User menu */
+.block.block-system-user-menu {
+  float: right;
+  width: auto;
+}
+
+/* Top menu */
+.region-user-first .block-menu .content ul.menu {
+  text-align: left;
+}
+
+/* Footer menu */
+.zone-footer .block-menu .content ul.menu {
+  text-align: right;
+}
+.zone-footer ul.menu li a {
+  padding: 0 20px;
+}
+
+/* Categories  
+*************************************************/
+/* List categories */
+.view-list-categories .views-row {
+  width: 205px;
+  padding: 0 10px 20px;
+}
+.view-list-categories .views-row-4,
+.view-list-categories .views-row-7,
+.view-list-categories .views-row-10,
+.view-list-categories .views-row-13 {
+  clear: left;
+}
+.view-list-categories .views-field-field-image {
+  width: 205px;
+}
+.view-list-categories .views-field-field-image img {
+  width: 193px;
+}
+
+/* Business
+*************************************************/
+/* Block slideshow business */
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-field-images,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-field-images {
+  width: 280px;
+}
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-field-images img,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-field-images img {
+  width: 248px;
+}
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-title a,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-title a {
+  font-size: 160%;
+}
+
+/* Block list business by category */
+.block-category-items .views-field-field-images {
+  width: 195px;
+}
+.block-category-items .views-field-field-images img {
+  width: 183px;
+}
+
+/* List Business */
+.view-list-businesses .views-row {
+  width: 325px;
+}
+.view-list-businesses .views-row-1,
+.view-list-businesses .views-row-3,
+.view-list-businesses .views-row-5,
+.view-list-businesses .views-row-7,
+.view-list-businesses .views-row-9,
+.view-list-businesses .views-row-11 {
+  clear: left;
+  margin-right: 20px;
+}
+.view-list-businesses .views-row .views-field-field-images img {
+  width: 100px;
+}
+
+/* List Search Business */
+.view-search-business .views-row .views-field-field-images img {
+  width: 100px;
+}
+
+/* Similar bussiness */
+.view-similar-business .views-row .views-field-field-images {
+  float: left;
+  width: 80px;
+  margin-right: 0px;
+}
+.view-similar-business .views-row .views-field-field-images img {
+  width: 68px;
+}
+
+/* Business detail */
+article.node-business .field-name-field-images {
+  float: right;
+  margin: 0 0 0 20px;
+  width: 220px;
+}
+article.node-business .field-name-field-images .field-slideshow-slide img {
+  width: 208px;
+  margin: 0;
+}
+article.node ul.field-slideshow-pager li {
+  width: 60px;
+}
+article.node ul.field-slideshow-pager li img {
+  width: 48px;
+}
+article.node-business .field-name-field-rating {
+  clear: none;
+  padding-top: 0px;
+}
+
+/* Events
+*************************************************/
+/* List events */
+/*
+.view-list-events .views-row {
+  width: 400px;
+}
+.view-list-events .views-row-1,
+.view-list-events .views-row-3,
+.view-list-events .views-row-5,
+.view-list-events .views-row-7,
+.view-list-events .views-row-9,
+.view-list-events .views-row-11 {
+  clear: left;
+  margin-right: 20px;
+}*/
+
+/* Block top events */
+.block-top-events .views-row {
+  width: 325px;
+}
+.block-top-events .views-row-1,
+.block-top-events .views-row-3,
+.block-top-events .views-row-5,
+.block-top-events .views-row-7 {
+  clear: left;
+  padding-right: 20px;
+}
+
+
+/* List events */
+.view-list-events .views-row .views-field-field-image {
+  width: 230px;
+  float: right;
+}
+.view-list-events .views-row .views-field-field-image img {
+  width: 198px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Event detail */
+article.node-event .field-name-field-image {
+  width: 220px;
+}
+article.node-event .field-name-field-image img {
+  width: 208px;
+}
+
+
+/* News
+*************************************************/
+/* News page */
+.view-list-articles .views-row {
+}
+.view-list-articles .views-row .views-field-field-image {
+  width: 210px;
+}
+.view-list-articles .views-row .views-field-field-image img {
+  width: 198px;
+}
+.view-list-articles .views-field-title a {
+  font-size: 160%;
+}
+article.node-article .field-name-field-image {
+  width: 210px;
+}
+article.node-article .field-name-field-image img {
+  width: 198px;
+}
+
+
+/* Blocks
+*************************************************/
+.section-content section.block  .block-inner .content,
+.section-content #block-system-main  .block-inner .content {
+  padding: 40px 10px 20px;
+}
+
+/* Block Search Business */
+.block-search-business {
+  float: right;
+  margin: 10px 0;
+}
+
+/* Block recent comment */
+.block-recent-comments .views-row .views-field-field-images {
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+}
+.block-recent-comments .views-row .views-field-field-images img {
+  width:58px;
+  margin-bottom: 5px;
+  margin-right: 0;
+}
+
+/* Block List Loactions */
+.block-list-locations .content ul li {
+  width: 50%;
+}
+
+/* Block login */
+.block-login .item-list ul li {
+  margin-left: 0;
+  list-style: none;
+}
+.block-login input.form-text {
+  width: 100%;
+}
+
+/* Block search */
+.block.block-search {
+  float: right;
+  clear: right;
+  width: auto;
+  margin: 50px 0 10px
+}
+.block-search input.form-text {
+  width: 220px;
+}
+
+/* Block social icons */
+.block-social-icons .block-inner {
+  background: url(../images/socia-block-bg.png) 0 0 repeat-x;
+  border: none;
+  border-right: 3px solid #6e6561;
+}
+.block-social-icons .block-inner span {
+  float: left;
+  width: auto;
+  background: url(../images/social-block-title.png) right center no-repeat;
+  padding: 8px 20px 8px 10px;
+  margin-right: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.block-social-icons .block-inner .content img {
+  margin: 10px 2px 0px;
+}
+
+/* Contact form
+*************************************************/
+/* Contact form */
+.contact-form .form-item label {
+  float: left;
+  width: 180px;
+  font-size: 110%;
+  font-weight: bold;
+}
+.contact-form .form-item.form-type-checkbox label {
+  float: none;
+  font-size: 100%;
+  font-weight: normal;
+}
+.contact-form .form-item .form-textarea-wrapper {
+  float: left;
+  width: 70%;
+}
+.contact-form .form-item.form-type-checkbox,
+.contact-form .form-actions {
+  margin-left: 250px;
+  width: auto;
+  clear: left;
+  float: left;
+}
+.contact-form .form-actions {
+  margin-left: 260px;
+}

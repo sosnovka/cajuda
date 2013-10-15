@@ -1,0 +1,244 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+
+/* Mobile CSS */
+.block-search-business,
+.block-system-user-menu,
+.block-nice-menus-1 {
+  display: block;
+}
+/* Mobile menu */
+#block-om-maximenu-om-maximenu-1 {
+  display: none;
+}
+
+/* Page
+*************************************************/
+body {
+  font-size: 75%; /* 13px */
+  line-height: 2;
+}
+h1.title,
+h2.block-title {
+  font-size: 160%;
+  line-height: 1;
+}
+
+h1.title,
+h2.block-title {
+  font-size: 160%;
+  line-height: 1;
+}
+.section-content section.block.block-category-items .block-inner h2.block-title {
+  font-size: 140%;
+}
+
+.branding-data .logo-img img {
+  width: auto;
+}
+
+.region-sidebar-second {
+  margin-top: 10px;
+}
+
+#breadcrumb {
+  margin: 5px 0 20px 0;
+}
+
+/* Navigations
+*************************************************/
+/* Main menu */
+.region-menu nav.navigation {
+  float: left;
+  width: 100%;
+}
+ul#main-menu li,
+.zone-menu ul.nice-menu li {
+  float: left;
+}
+ul#main-menu li a,
+.zone-menu ul.nice-menu li a {
+  padding: 10px 35px;
+  font-size: 100%;
+}
+.zone-menu ul.nice-menu li.menuparent a {
+  padding-right: 15px;
+  margin-right: 20px;
+}
+.zone-menu ul.nice-menu li li a,
+.zone-menu ul.nice-menu li.over li a,
+.zone-menu ul.nice-menu li.active-trail li a {
+  padding: 8px 15px;
+}
+
+/* User menu */
+.block.block-system-user-menu {
+  float: right;
+  width: auto;
+}
+
+/* Top menu */
+.region-user-first .block-menu .content ul.menu {
+  text-align: left;
+}
+
+/* Footer menu */
+.zone-footer .block-menu .content ul.menu {
+  text-align: right;
+}
+
+/* Categories  
+*************************************************/
+/* List categories */
+.view-list-categories .views-row {
+  width: 145px;
+  padding: 0 10px 20px;
+}
+.view-list-categories .views-row-4,
+.view-list-categories .views-row-7,
+.view-list-categories .views-row-10,
+.view-list-categories .views-row-13 {
+  clear: left;
+}
+.view-list-categories .views-field-field-image {
+  width: 145px;
+}
+.view-list-categories .views-field-field-image img {
+  width: 133px;
+}
+
+/* Business
+*************************************************/
+/* Block slideshow business */
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-field-images,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-field-images {
+  width: 180px;
+}
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-field-images img,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-field-images img {
+  width: 148px;
+}
+.block-business-slideshow .views_slideshow_cycle_main .views-row .views-field-title a,
+.view-slideshow-business .views_slideshow_cycle_main .views-row .views-field-title a {
+  font-size: 140%;
+}
+
+/* Block list business by category */
+.block-category-items .views-field-field-images {
+  width: 135px;
+}
+.block-category-items .views-field-field-images img {
+  width: 123px;
+}
+
+/* List Business */
+.view-list-businesses .views-row .views-field-field-images img {
+  width: 100px;
+}
+
+/* List Search Business */
+.view-search-business .views-row .views-field-field-images img {
+  width: 100px;
+}
+
+/* Similar bussiness */
+.view-similar-business .views-row .views-field-field-images {
+  width: 135px;
+  margin: 0 0 10px 0;
+}
+.view-similar-business .views-row .views-field-field-images img {
+  width: 123px;
+}
+
+/* Business detail */
+article.node-business .field-name-field-images {
+  float: right;
+  margin: 0 0 0 20px;
+  width: 220px;
+}
+article.node-business .field-name-field-images .field-slideshow-slide img {
+  width: 208px;
+}
+article.node-business .field-name-field-rating {
+  clear: left;
+}
+
+/* News
+*************************************************/
+/* News page */
+.view-list-articles .views-row {
+}
+.view-list-articles .views-row .views-field-field-image {
+  width: 180px;
+}
+.view-list-articles .views-row .views-field-field-image img {
+  width: 168px;
+}
+.view-list-articles .views-field-title a {
+  font-size: 140%;
+}
+
+article.node-article .field-name-field-image {
+  width: 180px;
+}
+article.node-article .field-name-field-image img {
+  width: 168px;
+}
+.block-latest-news .views-field-field-image {
+  width: 100%;
+  margin-right: 0;
+}
+
+/* Events
+*************************************************/
+.view-list-events .views-row .views-field-field-image img {
+  width: 170px;
+}
+.view-list-events .views-row .views-field-field-image img {
+  width: 132px;
+}
+
+/* Blocks
+*************************************************/
+/* Block Search Business */
+.block-search-business {
+  float: right;
+  margin: 10px 0;
+}
+
+/* Block recent comment */
+.block-recent-comments .views-row .views-field-field-images {
+  width: 135px;
+  margin: 0 0 5px 0;
+}
+.block-recent-comments .views-row .views-field-field-images img {
+  width: 123px;
+}
+
+/* Block List Loactions */
+.block-list-locations .content ul li {
+  width: 50%;
+}
+
+
+/* Block login */
+.block-login input.form-text {
+  width: 100%;
+}
+.block-login .item-list ul li {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* Block social icons */
+.block-social-icons .block-inner span {
+  text-align: center;
+}
+
+/* Contact form */
+.contact-form .form-item label {
+  font-size: 110%;
+  font-weight: bold;
+}
+.contact-form .form-actions {
+  margin-left: 10px;
+}
